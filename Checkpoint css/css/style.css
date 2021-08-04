@@ -1,0 +1,64 @@
+body{
+    font-family:'Roboto', sans-serif;
+    background: #EFEFF0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+      float:left
+  }
+  nav ul li a{
+      display: block;
+      padding: 8px;
+      background-color: #EAFFFD;
+      text-decoration: none;
+
+  }
+  nav ul li a:hover{
+      background-color: #C9F0FF;
+  }
+nav ul li a:visited{
+    color: black;
+}
+nav ul li a:link{
+    color: black;
+}
+.section_title{
+    text-decoration: underline;
+}
+table{
+    width: 100%;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+th{
+    background-color: #EAFFFD;
+    color: black;
+}
+#video_description{
+    text-decoration: underline;
+}
+form{
+    max-width: 600px;
+
+}
+#submit{
+    color: black; 
+    background:#EAFFFD;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#submit:hover{
+    background: #C9F0FF;
+}
+label{
+    text-decoration: underline;
+}
+textarea , input{
+    border-radius: 10px;
+}
