@@ -38,11 +38,17 @@ nav ul li a:link{
 h1{
     text-align: center;
 }
+h1:hover{
+    color: red;
+}
 .section_title{
     text-align: center;
 }
 .my_image{
     border-radius: 200%;
+    margin-top: 15px;
+    margin-bottom: 28px;
+    margin-left: 258px;
 }
 table{
     width: 100%;
@@ -92,4 +98,8 @@ footer{
 }
 footer a{
     padding: 5% ;
+}
+
+.cont{
+    background-image: url("https://st2.depositphotos.com/1265075/7446/i/600/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.jpg");
 }
