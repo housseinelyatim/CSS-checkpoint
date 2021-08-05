@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--beginning of nav bar-->
-    <header>
+    <div>
         <nav>
             <ul>
                 <li><a href="#Home">Home</a></li>
@@ -23,10 +23,9 @@
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <br>
-    <br>
+    </div>
     <!--end of nav bar-->
+    <br>
     <!--beginning of main-->
     <main>
         <!--beginning of home-->
@@ -37,7 +36,7 @@
         <!--beginning of about-->
         <section id="About">
             <h3 class="section_title">About</h3>
-            <img src="img/1.jpg" alt="Houssein ELyatim">
+            <img src="img/1.jpg" alt="Houssein ELyatim" class="my_image">
             <!--beginning of the table-->
             <table>
                 <tr>
@@ -63,7 +62,7 @@
         <section id="Work">
             <h3 class="section_title">Work</h3>
             <p>To check my previous project you can visit my Github account</p>
-            <a href="https://github.com/"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github logo" width="100"></a>
+            <a href="https://github.com/"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Github logo" width="100" id="githubLogo"></a>
         </section>
         <!--end of work-->
         <!--beginning of resume-->
@@ -95,10 +94,10 @@
             <h3 class="section_title">Contact</h3>
             <form>
                 <label>Name:</label><br>
-                <input type="text" name="first name" placeholder="Type your name here" />
+                <input type="text" name="first name" placeholder="Type your name here" class="User-input"/>
                 <br><br>
                 <label>E-mail:</label><br>
-                <input type="email" name="Email" placeholder="FoulenBenFoulen@mail.com" />
+                <input type="email" name="Email" placeholder="FoulenBenFoulen@mail.com" class="User-input"/>
                 <br><br>
                 <label>Message:</label><br>
                 <textarea name="message" cols="30" rows="5"></textarea><br>
@@ -113,7 +112,6 @@
         <a href="facebook.com/sa7ou7y">Facebook</a>
         <a href="instagram.com">Instagram</a>
         <a href="www.linkedin.com/in/houssein-elyatim">Linkedin</a>
-
     </footer>
     <!--end of footer-->
 </body>
